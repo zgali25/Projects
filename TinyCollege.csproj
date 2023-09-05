@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D70FBDDD-D1C7-4D31-BED9-6281D3090730}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>dropbox13</RootNamespace>
+    <AssemblyName>dropbox13</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlClient, Version=4.6.1.5, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SqlClient.4.8.5\lib\net461\System.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddCourseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCourseForm.Designer.cs">
+      <DependentUpon>AddCourseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddInstructor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddInstructor.Designer.cs">
+      <DependentUpon>AddInstructor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddStudent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddStudent.Designer.cs">
+      <DependentUpon>AddStudent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Administrator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administrator.Designer.cs">
+      <DependentUpon>Administrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeInstructors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeInstructors.Designer.cs">
+      <DependentUpon>ChangeInstructors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Instructor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instructor.Designer.cs">
+      <DependentUpon>Instructor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageCourses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageCourses.Designer.cs">
+      <DependentUpon>ManageCourses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Students.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Students.Designer.cs">
+      <DependentUpon>Students.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewGrades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewGrades.Designer.cs">
+      <DependentUpon>ViewGrades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewRegistered.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewRegistered.Designer.cs">
+      <DependentUpon>ViewRegistered.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddCourseForm.resx">
+      <DependentUpon>AddCourseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddInstructor.resx">
+      <DependentUpon>AddInstructor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddStudent.resx">
+      <DependentUpon>AddStudent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administrator.resx">
+      <DependentUpon>Administrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeInstructors.resx">
+      <DependentUpon>ChangeInstructors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instructor.resx">
+      <DependentUpon>Instructor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageCourses.resx">
+      <DependentUpon>ManageCourses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Students.resx">
+      <DependentUpon>Students.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewGrades.resx">
+      <DependentUpon>ViewGrades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewRegistered.resx">
+      <DependentUpon>ViewRegistered.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\CreateTeachingDB.sql">
+      <Link>CreateTeachingDB.sql</Link>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
