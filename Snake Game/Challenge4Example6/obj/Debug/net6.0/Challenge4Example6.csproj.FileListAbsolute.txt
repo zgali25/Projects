@@ -1,0 +1,15 @@
+C:\Users\17408\source\repos\Challenge4Example6\Challenge4Example6\bin\Debug\net6.0\Challenge4Example6.exe
+C:\Users\17408\source\repos\Challenge4Example6\Challenge4Example6\bin\Debug\net6.0\Challenge4Example6.deps.json
+C:\Users\17408\source\repos\Challenge4Example6\Challenge4Example6\bin\Debug\net6.0\Challenge4Example6.runtimeconfig.json
+C:\Users\17408\source\repos\Challenge4Example6\Challenge4Example6\bin\Debug\net6.0\Challenge4Example6.dll
+C:\Users\17408\source\repos\Challenge4Example6\Challenge4Example6\bin\Debug\net6.0\Challenge4Example6.pdb
+C:\Users\17408\source\repos\Challenge4Example6\Challenge4Example6\obj\Debug\net6.0\Challenge4Example6.csproj.AssemblyReference.cache
+C:\Users\17408\source\repos\Challenge4Example6\Challenge4Example6\obj\Debug\net6.0\Challenge4Example6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\17408\source\repos\Challenge4Example6\Challenge4Example6\obj\Debug\net6.0\Challenge4Example6.AssemblyInfoInputs.cache
+C:\Users\17408\source\repos\Challenge4Example6\Challenge4Example6\obj\Debug\net6.0\Challenge4Example6.AssemblyInfo.cs
+C:\Users\17408\source\repos\Challenge4Example6\Challenge4Example6\obj\Debug\net6.0\Challenge4Example6.csproj.CoreCompileInputs.cache
+C:\Users\17408\source\repos\Challenge4Example6\Challenge4Example6\obj\Debug\net6.0\Challenge4Example6.dll
+C:\Users\17408\source\repos\Challenge4Example6\Challenge4Example6\obj\Debug\net6.0\refint\Challenge4Example6.dll
+C:\Users\17408\source\repos\Challenge4Example6\Challenge4Example6\obj\Debug\net6.0\Challenge4Example6.pdb
+C:\Users\17408\source\repos\Challenge4Example6\Challenge4Example6\obj\Debug\net6.0\Challenge4Example6.genruntimeconfig.cache
+C:\Users\17408\source\repos\Challenge4Example6\Challenge4Example6\obj\Debug\net6.0\ref\Challenge4Example6.dll
