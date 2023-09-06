@@ -1,7 +1,4 @@
-﻿//Ian Rhoades
-//CISS 311
-//Assignment 13
-//Aug 4, 2023
+
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
